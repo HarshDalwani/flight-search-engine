@@ -115,7 +115,6 @@ export default {
     },
     showFlightCities() {
       const flight = this.flights[0];
-      console.log(flight);
       return `${flight.from.city} > ${flight.to.city} ${
         this.isReturnFlight ? "> " + flight.from.city : ""
       }`;
