@@ -1,4 +1,4 @@
-# ui-app
+# Flight-Search-Engine
 
 ## Project setup
 ```
