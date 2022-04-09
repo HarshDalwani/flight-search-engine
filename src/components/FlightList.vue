@@ -120,11 +120,7 @@ export default {
       }`;
     },
     getFlightFares() {
-      const fares = [];
-      this.flights.forEach((el) => {
-        fares.push(el.fare);
-      });
-      return fares.sort((a, b) => a - b);
+     return this.flights.map((el) => el.fare).sort((a, b) => a - b);
     },
     filterByPrice() {
       if (this.price != 0) {
